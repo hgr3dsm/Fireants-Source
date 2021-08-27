@@ -1782,6 +1782,14 @@ CAmount GetProofOfWorkSubsidy()
 {
     int nBlockHeight = chainActive.Height() + 1;
 
+         if (nBlockHeight ==        1)                             { return          0.0 * COIN; } // premine Block, no mining output
+         if (nBlockHeight >=        2 && nBlockHeight <=   345600) { return        100.0 * COIN; } // Day    ~1 
+    else if (nBlockHeight >=   345601 && nBlockHeight <=   691200) { return         40.0 * COIN; } // Day  ~720
+    // LAST POW BLOCK 691200 on Day ~1440! This will be around ~2025
+}
+
+CAmount GetProofOfStakeSubsidy()
+{
          if (nBlockHeight ==        1)                             { return   52500000.0 * COIN; } // premine FireAnts
          if (nBlockHeight >=        2 && nBlockHeight <=   345600) { return        100.0 * COIN; } // Day    ~1, Supply  ~52,500,000 
     else if (nBlockHeight >=   345601 && nBlockHeight <=   691200) { return         40.0 * COIN; } // Day  ~720, Supply  ~87,060,000
@@ -1794,14 +1802,6 @@ CAmount GetProofOfWorkSubsidy()
     else if (nBlockHeight >=  2764801)                             { return          0.1 * COIN; } // Day ~5760, Supply ~208,711,200
     // From Day 5040+ to infinite we get 0.1 ANTS output to cover fees. we reach max supply of 210,000,000 around day ~20370 after genesis
     // this will be in ~2076
-}
-
-CAmount GetProofOfStakeSubsidy()
-{
-         if (nBlockHeight ==        1)                             { return          0.0 * COIN; } // premine Block, no mining output
-         if (nBlockHeight >=        2 && nBlockHeight <=   345600) { return        100.0 * COIN; } // Day    ~1 
-    else if (nBlockHeight >=   345601 && nBlockHeight <=   691200) { return         40.0 * COIN; } // Day  ~720
-    // LAST POW BLOCK 691200 on Day ~1440! This will be around ~2025
 }
 
 bool IsInitialBlockDownload()

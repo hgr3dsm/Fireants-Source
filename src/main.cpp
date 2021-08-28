@@ -1782,27 +1782,17 @@ CAmount GetProofOfWorkSubsidy()
 {
     int nBlockHeight = chainActive.Height() + 1;
 
-         if (nBlockHeight ==        1)                             { return          0.0 * COIN; } // premine Block, no mining output
-         if (nBlockHeight >=        2 && nBlockHeight <=   345600) { return        100.0 * COIN; } // Day    ~1 
-    else if (nBlockHeight >=   345601 && nBlockHeight <=   691200) { return         40.0 * COIN; } // Day  ~720
-    else if (nBlockHeight >=   691201                              { return          0.0 * COIN; } // from Day ~720+ infinite
-    // LAST POW BLOCK 691200 on Day ~1440! This will be around ~2025
+    if (nBlockHeight == 1) {
+     return 52500000 * COIN;
+    }
+    if (nBlockHeight != 1) {
+    return 100 * COIN;
+    }
 }
 
 CAmount GetProofOfStakeSubsidy()
 {
-         if (nBlockHeight ==        1)                             { return   52500000.0 * COIN; } // premine FireAnts
-         if (nBlockHeight >=        2 && nBlockHeight <=   345600) { return        100.0 * COIN; } // Day    ~1, Supply  ~52,500,000 
-    else if (nBlockHeight >=   345601 && nBlockHeight <=   691200) { return         40.0 * COIN; } // Day  ~720, Supply  ~87,060,000
-    else if (nBlockHeight >=   691201 && nBlockHeight <=  1036800) { return         20.0 * COIN; } // Day ~1440, Supply ~114,708,000
-    else if (nBlockHeight >=  1036801 && nBlockHeight <=  1382400) { return         10.0 * COIN; } // Day ~2160, Supply ~145,812,000
-    else if (nBlockHeight >=  1382401 && nBlockHeight <=  1728000) { return          5.0 * COIN; } // Day ~2880, Supply ~173,460,000
-    else if (nBlockHeight >=  1728001 && nBlockHeight <=  2073600) { return          2.0 * COIN; } // Day ~3600, Supply ~190,740,000
-    else if (nBlockHeight >=  2073601 && nBlockHeight <=  2419200) { return          1.0 * COIN; } // Day ~4320, Supply ~201,108,000
-    else if (nBlockHeight >=  2419201 && nBlockHeight <=  2764800) { return          0.1 * COIN; } // Day ~5040, Supply ~205,946,400
-    else if (nBlockHeight >=  2764801)                             { return          0.1 * COIN; } // Day ~5760, Supply ~208,711,200
-    // From Day 5040+ to infinite we get 0.1 ANTS output to cover fees. we reach max supply of 210,000,000 around day ~20370 after genesis
-    // this will be in ~2076
+    return COIN * 100;
 }
 
 bool IsInitialBlockDownload()

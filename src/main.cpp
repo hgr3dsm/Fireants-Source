@@ -1782,17 +1782,21 @@ CAmount GetProofOfWorkSubsidy()
 {
     int nBlockHeight = chainActive.Height() + 1;
 
-    if (nBlockHeight == 1) {
-     return 52500000 * COIN;
-    }
-    if (nBlockHeight != 1) {
-    return 100 * COIN;
-    }
+    if (nBlockHeight ==      1)                           { return 52500000 * COIN; }
+    if (nBlockHeight >=      1 && nBlockHeight <= 345600) { return      100 * COIN; }
+	if (nBlockHeight >= 345601 && nBlockHeight <= 691200) { return       40 * COIN; }
+	if (nBlockHeight >= 691201)                           { return        0 * COIN; } 
+	
 }
 
 CAmount GetProofOfStakeSubsidy()
 {
-    return COIN * 100;
+	int nBlockHeightPos = chainActive.Height() + 1;
+	
+    if (nBlockHeightPos == 1)                              { return 52500000 * COIN; }
+    if (nBlockHeightPos >= 1 && nBlockHeightPos <= 345600) { return      100 * COIN; }
+    if (nBlockHeightPos >= 1 && nBlockHeightPos <= 345600) { return       40 * COIN; }
+    if (nBlockHeightPos >= 691201)                         { return        0 * COIN; }
 }
 
 bool IsInitialBlockDownload()

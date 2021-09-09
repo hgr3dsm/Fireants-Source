@@ -6,7 +6,7 @@
 ![GitHub](https://img.shields.io/github/license/hgr3dsm/Fireants-Source) 
 [![Discord Chat](https://img.shields.io/discord/561164955924037637.svg?logo=discord)](https://discord.gg/6Tjbah4Z8t) 
 [![Twitter Follow](https://img.shields.io/twitter/follow/FireantsT?style=flat)](https://twitter.com/FireantsT)
--------------------------------------------------------------------------------------------------------------------------------
+</br></br>
 *** BETA SOFTWARE - USE AT YOUR OWN RISK ***
 
 

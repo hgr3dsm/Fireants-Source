@@ -1,11 +1,11 @@
 # FireAnts coin
 
-![GitHub Logo](http://explorer.fireants.online/images/logo.png) 
+![GitHub Logo](http://explorer.fireants.online/images/logo.png) </br>
 ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/hgr3dsm/Fireants-Source?label=latest%20version) 
 ![Release date](https://img.shields.io/github/release-date/hgr3dsm/Fireants-Source) 
 ![GitHub](https://img.shields.io/github/license/hgr3dsm/Fireants-Source) 
 [![Discord Chat](https://img.shields.io/discord/561164955924037637.svg?logo=discord)](https://discord.gg/6Tjbah4Z8t) 
-[![Twitter Follow](https://img.shields.io/twitter/follow/bare_crypto?style=flat)](https://twitter.com/FireantsT)
+[![Twitter Follow](https://img.shields.io/twitter/follow/FireantsT?style=flat)](https://twitter.com/FireantsT)
 -------------------------------------------------------------------------------------------------------------------------------
 *** BETA SOFTWARE - USE AT YOUR OWN RISK ***
 

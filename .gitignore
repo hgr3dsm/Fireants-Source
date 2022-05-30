@@ -136,8 +136,14 @@ contrib/devtools/split-debug.sh
 .vscode/*
 .vs/*
 
+# Jetbrains IDEs
+.idea/*
+
 # clang-check
 *.plist
+
+# Need to retain fancy.plist for macOS
+!contrib/macdeploy/fancy.plist
 
 osx_volname
 dist/

@@ -295,10 +295,10 @@ Fireants should now be available at `./src/fireantsd`.
 If you compiled support for the GUI, it should be available at 
 `./src/qt/fireants-qt`.
 
-If you ran `make deploy` you will have a macOS app at `/dist/Fireants.app`
-and a DMG at `./Fireants.dmg`.
+If you ran `make deploy` you will have a macOS app at `/dist/Fireants-Qt.app`
+and a DMG at `./Fireants-Qt.dmg`.
 
-The first time you run `fireantsd`, `fireants-qt`, or `Fireants.app` it will
+The first time you run `fireantsd`, `fireants-qt`, or `Fireants-Qt.app` it will
 start downloading the blockchain. This process could take many hours, or even 
 days on slower than average systems.
 

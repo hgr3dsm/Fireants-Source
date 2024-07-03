@@ -25,7 +25,6 @@ FireANTS Labs, Inc. is a US-based company that uses state-of-the-art 3D imaging 
  -   Metaverse — custom creation, rental, advertising, and royalty income.
  -   NFT ID cards and other NFT income (such as avatars and virtual spaces).
 
-> [!INOTE]
 >  Our cryptocurrency trades on several exchanges and in the future will, hopefully, support our continued development of Tribal ID, Player Loyalty Programs, and Cashless Wagering systems.
 ---
 
@@ -84,7 +83,7 @@ FireANTS Labs, Inc. is a US-based company that uses state-of-the-art 3D imaging 
   - Here you can Swap WANTS bsc token [SWAP](https://pancakeswap.finance/swap?inputCurrency=0xcD845749201E07c678563bc5Ef7534c85550d496&outputCurrency=0x55d398326f99059fF775485246999027B3197955)
   link is swap to USDT bsc token, you can change it!
 
-> [!NOTE] Actually there is no FARM or POOL online for WANTS, this ma come up with further development and support!
+> Actually there is no FARM or POOL online for WANTS, this ma come up with further development and support!
 ---
 Copyright 2024 by [FireAnts](https://fireants.online)<br>
 [Licensed](LICENSE) under the MIT License

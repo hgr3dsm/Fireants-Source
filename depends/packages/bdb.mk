@@ -1,6 +1,6 @@
 package=bdb
 $(package)_version=6.2.38
-$(package)_download_path=https://gentoo.osuosl.org/distfiles/
+$(package)_download_path=https://github.com/yasuhirokimura/db6/releases/download/6.2.38/
 $(package)_file_name=db-$($(package)_version).tar.gz
 $(package)_sha256_hash=99ccd944ffcccc88c0f404b4f3d8cb10747e1e3dfe9ec566f518725f986ca2fd
 $(package)_build_subdir=build_unix

@@ -12,9 +12,9 @@
 > BETA SOFTWARE - USE AT YOUR OWN RISK
 
 
-## What is FireANTS?
+## What is FireAnts?
 
-FireANTS Labs, Inc. is a US-based company that uses state-of-the-art 3D imaging and blockchain technologies to create customized virtual worlds, NFTs, Avatars, and cashless wagering via its proprietary API Payment Gateway. The initial market is Native American and other sovereign nations, cashless systems for casinos gaming. FireANTS expands everyone’s digital presence
+ Inc. is a US-based company that uses state-of-the-art 3D imaging and blockchain technologies to create customized virtual worlds, NFTs, Avatars, and cashless wagering via its proprietary API Payment Gateway. The initial market is Native Americans and other sovereign nations, and cashless systems for casino gaming. The company has six distinct areas from which it can generate revenue: Utility for voting ID, patrons, government, public, and private systems.
 
 ### The company has six distinct areas from which to generate revenue:
 
